@@ -6,7 +6,7 @@
 [![Icons](https://img.shields.io/badge/Icons-175+-brightgreen.svg)](https://companyportalicons.com)
 [![Categories](https://img.shields.io/badge/Categories-16-orange.svg)](https://companyportalicons.com)
 
-[**🌐 Visit companyportalicons.com**](https://companyportalicons.com) • [**📊 View Stats**](https://companyportalicons.goatcounter.com)
+[**🌐 Visit companyportalicons.com**](https://companyportalicons.com) 
 
 ---
 
