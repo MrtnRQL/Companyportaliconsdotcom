@@ -1418,8 +1418,8 @@ const apps = [
         slug: "hp-logo-blue",
         category: "Business",
         source: "official",
-        iconUrl: "assets/icons/hp-logo-blue.png",
-        downloadUrl: "assets/icons/HP-logo-blue.png"
+        iconUrl: "assets/icons/HP_Logo_1.png",
+        downloadUrl: "assets/icons/HP_Logo_1.png"
     },
     {
         name: "Screen2Gif",
@@ -1442,8 +1442,8 @@ const apps = [
         slug: "jabra-direct",
         category: "Hardware/Drivers",
         source: "official",
-        iconUrl: "assets/icons/Jabra-direct.png",
-        downloadUrl: "assets/icons/Jabra-direct.png"
+        iconUrl: "assets/icons/Jabra2.png",
+        downloadUrl: "assets/icons/Jabra2.png"
     },
     {
         name: "nVidiaGaming",
@@ -1452,22 +1452,6 @@ const apps = [
         source: "official",
         iconUrl: "assets/icons/nVidiaGaming.png",
         downloadUrl: "assets/icons/nVidiaGaming.png"
-    },
-        {
-        name: "CAB Printer",
-        slug: "cab-printer",
-        category: "Hardware/Drivers",
-        source: "official",
-        iconUrl: "assets/icons/CAB-Printer.png",
-        downloadUrl: "assets/icons/CAB-Printer.png"
-    },
-    {
-        name: "business central",
-        slug: "business-central",
-        category: "Business",
-        source: "official",
-        iconUrl: "assets/icons/business-central.png",
-        downloadUrl: "assets/icons/business-central.png"
     }
 ];
 let filteredApps = [...apps];
@@ -1487,7 +1471,7 @@ function renderIcons() {
     
     if (filteredApps.length === 0) {
         grid.innerHTML = `
-            <div class="empty-state">
+            <div class="no-results">
                 <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
@@ -1504,14 +1488,18 @@ function renderIcons() {
             </div>
             <div class="icon-name">${app.name}</div>
             <div class="icon-category">${app.category}</div>
-            <span class="icon-source source-${app.source}">${
-                app.source === 'aaron-parker' || app.source === 'github' ? 'GitHub (Aaron Parker)' : 
-                app.source === 'official' ? 'Official Source' : 
+            <div class="icon-source">${
+                app.source === 'aaron-parker' || app.source === 'github' ? 'Aaron Parker' : 
+                app.source === 'official' ? 'Official' : 
                 'Chocolatey'
-            }</span>
+            }</div>
             <div class="icon-actions">
-                <button class="icon-btn preview-btn" onclick="previewIcon(${index})">Preview</button>
-                <button class="icon-btn download-btn" onclick="downloadIcon(${index})">Download</button>
+                <button class="btn-download" onclick="downloadIcon(${index})">
+                    Download
+                </button>
+                <button class="btn-preview" onclick="previewIcon(${index})">
+                    Preview
+                </button>
             </div>
         </div>
     `).join('');
