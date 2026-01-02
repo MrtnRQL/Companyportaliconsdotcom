@@ -1452,6 +1452,78 @@ const apps = [
         source: "official",
         iconUrl: "assets/icons/nVidiaGaming.png",
         downloadUrl: "assets/icons/nVidiaGaming.png"
+    },
+        {
+        name: "workday icon",
+        slug: "workday-icon",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/workday_icon.png",
+        downloadUrl: "assets/icons/workday_icon.png"
+    },
+    {
+        name: "simployer black",
+        slug: "simployer-black",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/simployer_black.png",
+        downloadUrl: "assets/icons/simployer_black.png"
+    },
+    {
+        name: "simployer purple",
+        slug: "simployer-purple",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/simployer_purple.png",
+        downloadUrl: "assets/icons/simployer_purple.png"
+    },
+    {
+        name: "cisco",
+        slug: "cisco",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/cisco.png",
+        downloadUrl: "assets/icons/cisco.png"
+    },
+    {
+        name: "miro Icon",
+        slug: "miro-icon",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/miro-Icon.png",
+        downloadUrl: "assets/icons/miro-Icon.png"
+    },
+    {
+        name: "Postman logo vrtical orange 2021",
+        slug: "postman-logo-vrtical-orange-2021",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/Postman-logo-vrtical-orange-2021.png",
+        downloadUrl: "assets/icons/Postman-logo-vrtical-orange-2021.png"
+    },
+    {
+        name: "docker logo blue",
+        slug: "docker-logo-blue",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/docker-logo-blue.png",
+        downloadUrl: "assets/icons/docker-logo-blue.png"
+    },
+    {
+        name: "cisco secure client",
+        slug: "cisco-secure-client",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/cisco-secure-client.png",
+        downloadUrl: "assets/icons/cisco-secure-client.png"
+    },
+    {
+        name: "wireshark",
+        slug: "wireshark",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/wireshark.png",
+        downloadUrl: "assets/icons/wireshark.png"
     }
 ];
 let filteredApps = [...apps];
