@@ -1442,8 +1442,8 @@ const apps = [
         slug: "jabra-direct",
         category: "Hardware/Drivers",
         source: "official",
-        iconUrl: "assets/icons/jabra-direct.png",
-        downloadUrl: "assets/icons/jabra-direct.png"
+        iconUrl: "assets/icons/Jabra-Direct.png",
+        downloadUrl: "assets/icons/Jabra-Direct.png"
     },
     {
         name: "nVidiaGaming",
