@@ -1278,8 +1278,8 @@ const apps = [
         slug: "sysinternals",
         category: "Utilities",
         source: "official",
-        iconUrl: "assets/icons/Sysinternals.png",
-        downloadUrl: "assets/icons/Sysinternals.png"
+        iconUrl: "assets/icons/sysinternals.png",
+        downloadUrl: "assets/icons/sysinternals.png"
     },
     {
         name: "Rufus",
@@ -1418,8 +1418,8 @@ const apps = [
         slug: "hp-logo-blue",
         category: "Business",
         source: "official",
-        iconUrl: "assets/icons/HP_Logo_1.png",
-        downloadUrl: "assets/icons/HP_Logo_1.png"
+        iconUrl: "assets/icons/hp-logo-blue.png",
+        downloadUrl: "assets/icons/hp-logo-blue.png"
     },
     {
         name: "Screen2Gif",
@@ -1442,8 +1442,8 @@ const apps = [
         slug: "jabra-direct",
         category: "Hardware/Drivers",
         source: "official",
-        iconUrl: "assets/icons/Jabra2.png",
-        downloadUrl: "assets/icons/Jabra2.png"
+        iconUrl: "assets/icons/jabra-direct.png",
+        downloadUrl: "assets/icons/jabra-direct.png"
     },
     {
         name: "nVidiaGaming",
