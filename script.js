@@ -1594,11 +1594,16 @@ function filterIcons() {
 // Filter by category
 function filterCategory(category) {
     currentCategory = category;
-    
+
     // Update active button
-    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
-    
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        if (btn.textContent.trim() === category || (category === 'all' && btn.textContent.trim() === 'All')) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+
     filterIcons();
 }
 
