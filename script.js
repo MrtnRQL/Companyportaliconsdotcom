@@ -1278,8 +1278,8 @@ const apps = [
         slug: "sysinternals",
         category: "Utilities",
         source: "official",
-        iconUrl: "assets/icons/Sysinternals.png",
-        downloadUrl: "assets/icons/Sysinternals.png"
+        iconUrl: "assets/icons/sysinternals.png",
+        downloadUrl: "assets/icons/sysinternals.png"
     },
     {
         name: "Rufus",
@@ -1418,8 +1418,8 @@ const apps = [
         slug: "hp-logo-blue",
         category: "Business",
         source: "official",
-        iconUrl: "assets/icons/HP_Logo_1.png",
-        downloadUrl: "assets/icons/HP_Logo_1.png"
+        iconUrl: "assets/icons/hp-logo-blue.png",
+        downloadUrl: "assets/icons/hp-logo-blue.png"
     },
     {
         name: "Screen2Gif",
@@ -1442,8 +1442,8 @@ const apps = [
         slug: "jabra-direct",
         category: "Hardware/Drivers",
         source: "official",
-        iconUrl: "assets/icons/jabra-direct.png",
-        downloadUrl: "assets/icons/jabra-direct.png"
+        iconUrl: "assets/icons/Jabra-Direct.png",
+        downloadUrl: "assets/icons/Jabra-Direct.png"
     },
     {
         name: "nVidiaGaming",
@@ -1452,6 +1452,366 @@ const apps = [
         source: "official",
         iconUrl: "assets/icons/nVidiaGaming.png",
         downloadUrl: "assets/icons/nVidiaGaming.png"
+    },
+        {
+        name: "gitlab",
+        slug: "gitlab",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/gitlab.png",
+        downloadUrl: "assets/icons/dashboard-icons/gitlab.png"
+    },
+    {
+        name: "google drive",
+        slug: "google-drive",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/google-drive.png",
+        downloadUrl: "assets/icons/dashboard-icons/google-drive.png"
+    },
+    {
+        name: "gimp",
+        slug: "gimp",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/gimp.png",
+        downloadUrl: "assets/icons/dashboard-icons/gimp.png"
+    },
+    {
+        name: "firefox beta",
+        slug: "firefox-beta",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/firefox-beta.png",
+        downloadUrl: "assets/icons/dashboard-icons/firefox-beta.png"
+    },
+    {
+        name: "handbrake",
+        slug: "handbrake",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/handbrake.png",
+        downloadUrl: "assets/icons/dashboard-icons/handbrake.png"
+    },
+    {
+        name: "nvidia",
+        slug: "nvidia",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/nvidia.png",
+        downloadUrl: "assets/icons/dashboard-icons/nvidia.png"
+    },
+    {
+        name: "openvpn",
+        slug: "openvpn",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/openvpn.png",
+        downloadUrl: "assets/icons/dashboard-icons/openvpn.png"
+    },
+    {
+        name: "unifi",
+        slug: "unifi",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/unifi.png",
+        downloadUrl: "assets/icons/dashboard-icons/unifi.png"
+    },
+    {
+        name: "amd",
+        slug: "amd",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/amd.png",
+        downloadUrl: "assets/icons/dashboard-icons/amd.png"
+    },
+    {
+        name: "1password dark",
+        slug: "1password-dark",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/1password-dark.png",
+        downloadUrl: "assets/icons/dashboard-icons/1password-dark.png"
+    },
+    {
+        name: "apache openoffice",
+        slug: "apache-openoffice",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/apache-openoffice.png",
+        downloadUrl: "assets/icons/dashboard-icons/apache-openoffice.png"
+    },
+    {
+        name: "app store",
+        slug: "app-store",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/app-store.png",
+        downloadUrl: "assets/icons/dashboard-icons/app-store.png"
+    },
+    {
+        name: "atlassian bamboo",
+        slug: "atlassian-bamboo",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/atlassian-bamboo.png",
+        downloadUrl: "assets/icons/dashboard-icons/atlassian-bamboo.png"
+    },
+    {
+        name: "atlassian trello",
+        slug: "atlassian-trello",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/atlassian-trello.png",
+        downloadUrl: "assets/icons/dashboard-icons/atlassian-trello.png"
+    },
+    {
+        name: "audacity",
+        slug: "audacity",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/audacity.png",
+        downloadUrl: "assets/icons/dashboard-icons/audacity.png"
+    },
+    {
+        name: "atlassian bitbucket",
+        slug: "atlassian-bitbucket",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/atlassian-bitbucket.png",
+        downloadUrl: "assets/icons/dashboard-icons/atlassian-bitbucket.png"
+    },
+    {
+        name: "bitwarden",
+        slug: "bitwarden",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/bitwarden.png",
+        downloadUrl: "assets/icons/dashboard-icons/bitwarden.png"
+    },
+    {
+        name: "blender",
+        slug: "blender",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/blender.png",
+        downloadUrl: "assets/icons/dashboard-icons/blender.png"
+    },
+    {
+        name: "brother",
+        slug: "brother",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/brother.png",
+        downloadUrl: "assets/icons/dashboard-icons/brother.png"
+    },
+    {
+        name: "brave dev",
+        slug: "brave-dev",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/brave-dev.png",
+        downloadUrl: "assets/icons/dashboard-icons/brave-dev.png"
+    },
+    {
+        name: "chrome remote desktop",
+        slug: "chrome-remote-desktop",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/chrome-remote-desktop.png",
+        downloadUrl: "assets/icons/dashboard-icons/chrome-remote-desktop.png"
+    },
+    {
+        name: "discord",
+        slug: "discord",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/discord.png",
+        downloadUrl: "assets/icons/dashboard-icons/discord.png"
+    },
+    {
+        name: "dropbox",
+        slug: "dropbox",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/dropbox.png",
+        downloadUrl: "assets/icons/dashboard-icons/dropbox.png"
+    },
+    {
+        name: "figma",
+        slug: "figma",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/figma.png",
+        downloadUrl: "assets/icons/dashboard-icons/figma.png"
+    },
+    {
+        name: "filezilla",
+        slug: "filezilla",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/filezilla.png",
+        downloadUrl: "assets/icons/dashboard-icons/filezilla.png"
+    },
+        {
+        name: "goodnotes",
+        slug: "goodnotes",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/goodnotes.png",
+        downloadUrl: "assets/icons/goodnotes.png"
+    },
+    {
+        name: "f lux",
+        slug: "f-lux",
+        category: "Hardware/Drivers",
+        source: "official",
+        iconUrl: "assets/icons/f-lux.png",
+        downloadUrl: "assets/icons/f-lux.png"
+    },
+    {
+        name: "adobe photoshop",
+        slug: "adobe-photoshop",
+        category: "Media & Graphics",
+        source: "official",
+        iconUrl: "assets/icons/adobe-photoshop.png",
+        downloadUrl: "assets/icons/adobe-photoshop.png"
+    },
+    {
+        name: "adobe express photos",
+        slug: "adobe-express-photos",
+        category: "Media & Graphics",
+        source: "official",
+        iconUrl: "assets/icons/adobe-express-photos.png",
+        downloadUrl: "assets/icons/adobe-express-photos.png"
+    },
+    {
+        name: "Epson print and scan",
+        slug: "epson-print-and-scan",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/Epson-print-and-scan.png",
+        downloadUrl: "assets/icons/Epson-print-and-scan.png"
+    },
+    {
+        name: "speccy",
+        slug: "speccy",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/speccy.png",
+        downloadUrl: "assets/icons/speccy.png"
+    },
+    {
+        name: "CrystalDiskInfo",
+        slug: "crystaldiskinfo",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/CrystalDiskInfo.png",
+        downloadUrl: "assets/icons/CrystalDiskInfo.png"
+    },
+    {
+        name: "potplayer",
+        slug: "potplayer",
+        category: "Communication",
+        source: "official",
+        iconUrl: "assets/icons/potplayer.png",
+        downloadUrl: "assets/icons/potplayer.png"
+    },
+    {
+        name: "apple devices",
+        slug: "apple-devices",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/apple-devices.png",
+        downloadUrl: "assets/icons/apple-devices.png"
+    },
+    {
+        name: "Apple Music",
+        slug: "apple-music",
+        category: "Media & Graphics",
+        source: "official",
+        iconUrl: "assets/icons/Apple Music.png",
+        downloadUrl: "assets/icons/Apple Music.png"
+    },
+    {
+        name: "ibis Paint",
+        slug: "ibis-paint",
+        category: "Media & Graphics",
+        source: "official",
+        iconUrl: "assets/icons/ibis Paint.png",
+        downloadUrl: "assets/icons/ibis Paint.png"
+    },
+    {
+        name: "TranslucentTB",
+        slug: "translucenttb",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/TranslucentTB.png",
+        downloadUrl: "assets/icons/TranslucentTB.png"
+    },
+    {
+        name: "eartrumpet",
+        slug: "eartrumpet",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/eartrumpet.png",
+        downloadUrl: "assets/icons/eartrumpet.png"
+    },
+    {
+        name: "icloud",
+        slug: "icloud",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/icloud.png",
+        downloadUrl: "assets/icons/icloud.png"
+    },
+    {
+        name: "BreeZip",
+        slug: "breezip",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/BreeZip.png",
+        downloadUrl: "assets/icons/BreeZip.png"
+    },
+    {
+        name: "Notepads",
+        slug: "notepads",
+        category: "Other",
+        source: "official",
+        iconUrl: "assets/icons/Notepads.png",
+        downloadUrl: "assets/icons/Notepads.png"
+    },
+        {
+        name: "powerbi desktop",
+        slug: "powerbi-desktop",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/powerbi-desktop.png",
+        downloadUrl: "assets/icons/powerbi-desktop.png"
+    },
+    {
+        name: "adobe lightroom",
+        slug: "adobe-lightroom",
+        category: "Media & Graphics",
+        source: "official",
+        iconUrl: "assets/icons/adobe-lightroom.png",
+        downloadUrl: "assets/icons/adobe-lightroom.png"
+    },
+    {
+        name: "wintoys",
+        slug: "wintoys",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/wintoys.png",
+        downloadUrl: "assets/icons/wintoys.png"
+    },
+    {
+        name: "treesize",
+        slug: "treesize",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/treesize.png",
+        downloadUrl: "assets/icons/treesize.png"
     }
 ];
 let filteredApps = [...apps];
