@@ -1278,8 +1278,8 @@ const apps = [
         slug: "sysinternals",
         category: "Utilities",
         source: "official",
-        iconUrl: "assets/icons/sysinternals.png",
-        downloadUrl: "assets/icons/sysinternals.png"
+        iconUrl: "assets/icons/Sysinternals.png",
+        downloadUrl: "assets/icons/Sysinternals.png"
     },
     {
         name: "Rufus",
@@ -1418,8 +1418,8 @@ const apps = [
         slug: "hp-logo-blue",
         category: "Business",
         source: "official",
-        iconUrl: "assets/icons/hp-logo-blue.png",
-        downloadUrl: "assets/icons/hp-logo-blue.png"
+        iconUrl: "assets/icons/HP_Logo_1.png",
+        downloadUrl: "assets/icons/HP_Logo_1.png"
     },
     {
         name: "Screen2Gif",
@@ -1442,8 +1442,8 @@ const apps = [
         slug: "jabra-direct",
         category: "Hardware/Drivers",
         source: "official",
-        iconUrl: "assets/icons/Jabra-Direct.png",
-        downloadUrl: "assets/icons/Jabra-Direct.png"
+        iconUrl: "assets/icons/jabra-direct.png",
+        downloadUrl: "assets/icons/jabra-direct.png"
     },
     {
         name: "nVidiaGaming",
@@ -1454,76 +1454,204 @@ const apps = [
         downloadUrl: "assets/icons/nVidiaGaming.png"
     },
         {
-        name: "workday icon",
-        slug: "workday-icon",
+        name: "gitlab",
+        slug: "gitlab",
         category: "Business",
-        source: "official",
-        iconUrl: "assets/icons/workday_icon.png",
-        downloadUrl: "assets/icons/workday_icon.png"
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/gitlab.png",
+        downloadUrl: "assets/icons/dashboard-icons/gitlab.png"
     },
     {
-        name: "simployer black",
-        slug: "simployer-black",
+        name: "google drive",
+        slug: "google-drive",
         category: "Business",
-        source: "official",
-        iconUrl: "assets/icons/simployer_black.png",
-        downloadUrl: "assets/icons/simployer_black.png"
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/google-drive.png",
+        downloadUrl: "assets/icons/dashboard-icons/google-drive.png"
     },
     {
-        name: "simployer purple",
-        slug: "simployer-purple",
+        name: "gimp",
+        slug: "gimp",
         category: "Business",
-        source: "official",
-        iconUrl: "assets/icons/simployer_purple.png",
-        downloadUrl: "assets/icons/simployer_purple.png"
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/gimp.png",
+        downloadUrl: "assets/icons/dashboard-icons/gimp.png"
     },
     {
-        name: "cisco",
-        slug: "cisco",
+        name: "firefox beta",
+        slug: "firefox-beta",
         category: "Business",
-        source: "official",
-        iconUrl: "assets/icons/cisco.png",
-        downloadUrl: "assets/icons/cisco.png"
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/firefox-beta.png",
+        downloadUrl: "assets/icons/dashboard-icons/firefox-beta.png"
     },
     {
-        name: "miro Icon",
-        slug: "miro-icon",
+        name: "handbrake",
+        slug: "handbrake",
         category: "Business",
-        source: "official",
-        iconUrl: "assets/icons/miro-Icon.png",
-        downloadUrl: "assets/icons/miro-Icon.png"
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/handbrake.png",
+        downloadUrl: "assets/icons/dashboard-icons/handbrake.png"
     },
     {
-        name: "Postman logo vrtical orange 2021",
-        slug: "postman-logo-vrtical-orange-2021",
+        name: "nvidia",
+        slug: "nvidia",
         category: "Business",
-        source: "official",
-        iconUrl: "assets/icons/Postman-logo-vrtical-orange-2021.png",
-        downloadUrl: "assets/icons/Postman-logo-vrtical-orange-2021.png"
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/nvidia.png",
+        downloadUrl: "assets/icons/dashboard-icons/nvidia.png"
     },
     {
-        name: "docker logo blue",
-        slug: "docker-logo-blue",
+        name: "openvpn",
+        slug: "openvpn",
         category: "Business",
-        source: "official",
-        iconUrl: "assets/icons/docker-logo-blue.png",
-        downloadUrl: "assets/icons/docker-logo-blue.png"
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/openvpn.png",
+        downloadUrl: "assets/icons/dashboard-icons/openvpn.png"
     },
     {
-        name: "cisco secure client",
-        slug: "cisco-secure-client",
+        name: "unifi",
+        slug: "unifi",
         category: "Business",
-        source: "official",
-        iconUrl: "assets/icons/cisco-secure-client.png",
-        downloadUrl: "assets/icons/cisco-secure-client.png"
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/unifi.png",
+        downloadUrl: "assets/icons/dashboard-icons/unifi.png"
     },
     {
-        name: "wireshark",
-        slug: "wireshark",
+        name: "amd",
+        slug: "amd",
         category: "Business",
-        source: "official",
-        iconUrl: "assets/icons/wireshark.png",
-        downloadUrl: "assets/icons/wireshark.png"
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/amd.png",
+        downloadUrl: "assets/icons/dashboard-icons/amd.png"
+    },
+    {
+        name: "1password dark",
+        slug: "1password-dark",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/1password-dark.png",
+        downloadUrl: "assets/icons/dashboard-icons/1password-dark.png"
+    },
+    {
+        name: "apache openoffice",
+        slug: "apache-openoffice",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/apache-openoffice.png",
+        downloadUrl: "assets/icons/dashboard-icons/apache-openoffice.png"
+    },
+    {
+        name: "app store",
+        slug: "app-store",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/app-store.png",
+        downloadUrl: "assets/icons/dashboard-icons/app-store.png"
+    },
+    {
+        name: "atlassian bamboo",
+        slug: "atlassian-bamboo",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/atlassian-bamboo.png",
+        downloadUrl: "assets/icons/dashboard-icons/atlassian-bamboo.png"
+    },
+    {
+        name: "atlassian trello",
+        slug: "atlassian-trello",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/atlassian-trello.png",
+        downloadUrl: "assets/icons/dashboard-icons/atlassian-trello.png"
+    },
+    {
+        name: "audacity",
+        slug: "audacity",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/audacity.png",
+        downloadUrl: "assets/icons/dashboard-icons/audacity.png"
+    },
+    {
+        name: "atlassian bitbucket",
+        slug: "atlassian-bitbucket",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/atlassian-bitbucket.png",
+        downloadUrl: "assets/icons/dashboard-icons/atlassian-bitbucket.png"
+    },
+    {
+        name: "bitwarden",
+        slug: "bitwarden",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/bitwarden.png",
+        downloadUrl: "assets/icons/dashboard-icons/bitwarden.png"
+    },
+    {
+        name: "blender",
+        slug: "blender",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/blender.png",
+        downloadUrl: "assets/icons/dashboard-icons/blender.png"
+    },
+    {
+        name: "brother",
+        slug: "brother",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/brother.png",
+        downloadUrl: "assets/icons/dashboard-icons/brother.png"
+    },
+    {
+        name: "brave dev",
+        slug: "brave-dev",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/brave-dev.png",
+        downloadUrl: "assets/icons/dashboard-icons/brave-dev.png"
+    },
+    {
+        name: "chrome remote desktop",
+        slug: "chrome-remote-desktop",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/chrome-remote-desktop.png",
+        downloadUrl: "assets/icons/dashboard-icons/chrome-remote-desktop.png"
+    },
+    {
+        name: "discord",
+        slug: "discord",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/discord.png",
+        downloadUrl: "assets/icons/dashboard-icons/discord.png"
+    },
+    {
+        name: "dropbox",
+        slug: "dropbox",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/dropbox.png",
+        downloadUrl: "assets/icons/dashboard-icons/dropbox.png"
+    },
+    {
+        name: "figma",
+        slug: "figma",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/figma.png",
+        downloadUrl: "assets/icons/dashboard-icons/figma.png"
+    },
+    {
+        name: "filezilla",
+        slug: "filezilla",
+        category: "Business",
+        source: "dashboard-icons",
+        iconUrl: "assets/icons/dashboard-icons/filezilla.png",
+        downloadUrl: "assets/icons/dashboard-icons/filezilla.png"
     }
 ];
 let filteredApps = [...apps];
@@ -1562,7 +1690,8 @@ function renderIcons() {
             <div class="icon-category">${app.category}</div>
             <div class="icon-source">${
                 app.source === 'aaron-parker' || app.source === 'github' ? 'Aaron Parker' : 
-                app.source === 'official' ? 'Official' : 
+                app.source === 'official' ? 'Official' :
+                app.source === 'dashboard-icons' ? 'Dashboard Icons' :
                 'Chocolatey'
             }</div>
             <div class="icon-actions">
@@ -1594,16 +1723,11 @@ function filterIcons() {
 // Filter by category
 function filterCategory(category) {
     currentCategory = category;
-
+    
     // Update active button
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-        if (btn.textContent.trim() === category || (category === 'all' && btn.textContent.trim() === 'All')) {
-            btn.classList.add('active');
-        } else {
-            btn.classList.remove('active');
-        }
-    });
-
+    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+    
     filterIcons();
 }
 
