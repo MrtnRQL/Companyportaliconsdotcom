@@ -1418,8 +1418,8 @@ const apps = [
         slug: "hp-logo-blue",
         category: "Business",
         source: "official",
-        iconUrl: "assets/icons/hp-blue-logo.png",
-        downloadUrl: "assets/icons/hp-blue-logo.png"
+        iconUrl: "assets/icons/hp-logo-blue.png",
+        downloadUrl: "assets/icons/hp-logo-blue.png"
     },
     {
         name: "Screen2Gif",
