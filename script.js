@@ -1812,7 +1812,15 @@ const apps = [
         source: "official",
         iconUrl: "assets/icons/treesize.png",
         downloadUrl: "assets/icons/treesize.png"
-    }
+    },
+    {
+        name: "crowdstrike",
+        slug: "crowdstrike",
+        category: "Security",
+        source: "official",
+        iconUrl: "assets/icons/crowdstrike.png",
+        downloadUrl: "assets/icons/crowdstrike.png"
+    }  
 ];
 let filteredApps = [...apps];
 let currentCategory = 'all';
