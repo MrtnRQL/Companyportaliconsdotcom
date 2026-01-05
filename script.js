@@ -1844,6 +1844,62 @@ const apps = [
         source: "official",
         iconUrl: "assets/icons/Orca_smooth.png",
         downloadUrl: "assets/icons/Orca_smooth.png"
+    },
+    {
+        name: "Admin By Request",
+        slug: "adminbyrequest",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/adminbyrequest.png",
+        downloadUrl: "assets/icons/adminbyrequest.png"
+    },
+        {
+        name: "Tidal",
+        slug: "tidal",
+        category: "Media & Graphics",
+        source: "official",
+        iconUrl: "assets/icons/tidal.png",
+        downloadUrl: "assets/icons/tidal.png"
+    },
+    {
+        name: "Adobe Express alternative",
+        slug: "adobe-express-alternative",
+        category: "Media & Graphics",
+        source: "official",
+        iconUrl: "assets/icons/Adobe_express_alternative.png",
+        downloadUrl: "assets/icons/Adobe_express_alternative.png"
+    },
+    {
+        name: "Dell Display and Peripheral Manager",
+        slug: "dell-displaymanager",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/Dell_DisplayManager.png",
+        downloadUrl: "assets/icons/Dell_DisplayManager.png"
+    },
+    {
+        name: "Lenovo Display Control Center",
+        slug: "lenovo-displaymanager",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/lenovo_displaymanager.png",
+        downloadUrl: "assets/icons/lenovo_displaymanager.png"
+    },
+    {
+        name: "Displaylink Manager",
+        slug: "displaylink-manager",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/displaylink_manager.png",
+        downloadUrl: "assets/icons/displaylink_manager.png"
+    },
+    {
+        name: "PDF24",
+        slug: "pdf24",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/pdf24.png",
+        downloadUrl: "assets/icons/pdf24.png"
     }  
 ];
 let filteredApps = [...apps];
