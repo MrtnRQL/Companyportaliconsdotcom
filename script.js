@@ -1828,6 +1828,22 @@ const apps = [
         source: "official",
         iconUrl: "assets/icons/unofficial_cmtrace.png",
         downloadUrl: "assets/icons/unofficial_cmtrace.png"
+    },
+    {
+        name: "WinDirStat",
+        slug: "windirstat",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/WinDirStat.png",
+        downloadUrl: "assets/icons/WinDirStat.png"
+    },
+    {
+        name: "Orca.msi",
+        slug: "orca-smooth",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/Orca_smooth.png",
+        downloadUrl: "assets/icons/Orca_smooth.png"
     }  
 ];
 let filteredApps = [...apps];

@@ -16,6 +16,7 @@
     <link rel="canonical" href="https://companyportalicons.com/">
     
     <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="512x512" href="assets/favicons/favicon-512.png">
     <link rel="icon" type="image/png" sizes="192x192" href="assets/favicons/favicon-192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32.png">
@@ -191,9 +192,26 @@
     </div>
 
     <script src="script.js"></script>
-
+    
     <!-- GoatCounter Analytics -->
     <script data-goatcounter="https://companyportalicons.goatcounter.com/count"
             async src="//gc.zgo.at/count.js"></script>
+
+    <script>
+        // Update filter button active state
+        function filterCategory(category) {
+            currentCategory = category;
+            
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                if (btn.textContent.trim() === category || (category === 'all' && btn.textContent.trim() === 'All')) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+            
+            filterIcons();
+        }
+    </script>
 </body>
 </html>
