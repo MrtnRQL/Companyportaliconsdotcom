@@ -1916,6 +1916,118 @@ const apps = [
         source: "official",
         iconUrl: "assets/icons/lsagent.png",
         downloadUrl: "assets/icons/lsagent.png"
+    },
+        {
+        name: "DxO PhotoLab Logo",
+        slug: "dxo-photolab-logo",
+        category: "Media & Graphics",
+        source: "official",
+        iconUrl: "assets/icons/DxO_PhotoLab_Logo.png",
+        downloadUrl: "assets/icons/DxO_PhotoLab_Logo.png"
+    },
+    {
+        name: "olvid",
+        slug: "olvid",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/olvid.png",
+        downloadUrl: "assets/icons/olvid.png"
+    },
+    {
+        name: "tiexo",
+        slug: "tiexo",
+        category: "Communication",
+        source: "official",
+        iconUrl: "assets/icons/tiexo.png",
+        downloadUrl: "assets/icons/tiexo.png"
+    },
+    {
+        name: "dassault logo",
+        slug: "dassault-logo",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/dassault-logo.png",
+        downloadUrl: "assets/icons/dassault-logo.png"
+    },
+    {
+        name: "payfit logo",
+        slug: "payfit-logo",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/payfit-logo.png",
+        downloadUrl: "assets/icons/payfit-logo.png"
+    },
+    {
+        name: "odoo logo",
+        slug: "odoo-logo",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/odoo-logo.png",
+        downloadUrl: "assets/icons/odoo-logo.png"
+    },
+    {
+        name: "klaxoon",
+        slug: "klaxoon",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/klaxoon.png",
+        downloadUrl: "assets/icons/klaxoon.png"
+    },
+    {
+        name: "brevo logo",
+        slug: "brevo-logo",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/brevo-logo.png",
+        downloadUrl: "assets/icons/brevo-logo.png"
+    },
+    {
+        name: "cegid logo",
+        slug: "cegid-logo",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/cegid-logo.png",
+        downloadUrl: "assets/icons/cegid-logo.png"
+    },
+    {
+        name: "lucca logo",
+        slug: "lucca-logo",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/lucca-logo.png",
+        downloadUrl: "assets/icons/lucca-logo.png"
+    },
+    {
+        name: "shadow pc",
+        slug: "shadow-pc",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/shadow-pc.png",
+        downloadUrl: "assets/icons/shadow-pc.png"
+    },
+    {
+        name: "sellsy logo",
+        slug: "sellsy-logo",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/sellsy-logo.png",
+        downloadUrl: "assets/icons/sellsy-logo.png"
+    },
+    {
+        name: "Whaller logo simple",
+        slug: "whaller-logo-simple",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/Whaller_logo_simple.png",
+        downloadUrl: "assets/icons/Whaller_logo_simple.png"
+    },
+    {
+        name: "deezer logo",
+        slug: "deezer-logo",
+        category: "Media & Graphics",
+        source: "official",
+        iconUrl: "assets/icons/deezer-logo.png",
+        downloadUrl: "assets/icons/deezer-logo.png"
     }  
 ];
 let filteredApps = [...apps];
