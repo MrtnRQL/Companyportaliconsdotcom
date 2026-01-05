@@ -1900,6 +1900,22 @@ const apps = [
         source: "official",
         iconUrl: "assets/icons/pdf24.png",
         downloadUrl: "assets/icons/pdf24.png"
+    },
+    {
+        name: "HP Logo - Black",
+        slug: "hp-logo-black",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/hp-logo-black.png",
+        downloadUrl: "assets/icons/hp-logo-black.png"
+    },
+    {
+        name: "Lansweeper Agent",
+        slug: "lsagent",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/lsagent.png",
+        downloadUrl: "assets/icons/lsagent.png"
     }  
 ];
 let filteredApps = [...apps];
