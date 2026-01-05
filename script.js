@@ -1820,6 +1820,14 @@ const apps = [
         source: "official",
         iconUrl: "assets/icons/crowdstrike.png",
         downloadUrl: "assets/icons/crowdstrike.png"
+    },
+    {
+        name: "CMTrace",
+        slug: "unofficial-cmtrace",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/unofficial_cmtrace.png",
+        downloadUrl: "assets/icons/unofficial_cmtrace.png"
     }  
 ];
 let filteredApps = [...apps];
