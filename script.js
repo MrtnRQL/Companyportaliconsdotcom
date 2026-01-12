@@ -2028,6 +2028,86 @@ const apps = [
         source: "official",
         iconUrl: "assets/icons/deezer-logo.png",
         downloadUrl: "assets/icons/deezer-logo.png"
+    },
+        {
+        name: "Ola Cab",
+        slug: "ola-logo",
+        category: "Other",
+        source: "official",
+        iconUrl: "assets/icons/ola_logo.png",
+        downloadUrl: "assets/icons/ola_logo.png"
+    },
+    {
+        name: "darwinbox",
+        slug: "darwinbox-logo",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/darwinbox_logo.png",
+        downloadUrl: "assets/icons/darwinbox_logo.png"
+    },
+    {
+        name: "practo",
+        slug: "practo-logo",
+        category: "Other",
+        source: "official",
+        iconUrl: "assets/icons/practo_logo.png",
+        downloadUrl: "assets/icons/practo_logo.png"
+    },
+    {
+        name: "pluxee",
+        slug: "pluxee-logo",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/pluxee_logo.png",
+        downloadUrl: "assets/icons/pluxee_logo.png"
+    },
+    {
+        name: "doccle",
+        slug: "doccle-logo",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/doccle_logo.png",
+        downloadUrl: "assets/icons/doccle_logo.png"
+    },
+    {
+        name: "powertoys",
+        slug: "powertoys",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/powertoys.png",
+        downloadUrl: "assets/icons/powertoys.png"
+    },
+    {
+        name: "monizze",
+        slug: "monizze-applogo",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/monizze_applogo.png",
+        downloadUrl: "assets/icons/monizze_applogo.png"
+    },
+    {
+        name: "sdworx",
+        slug: "sdworx",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/sdworx.png",
+        downloadUrl: "assets/icons/sdworx.png"
+    },
+    {
+        name: "Edenred",
+        slug: "edenred-logo",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/Edenred_Logo.png",
+        downloadUrl: "assets/icons/Edenred_Logo.png"
+    },
+    {
+        name: "itsme",
+        slug: "itsme-logo",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/itsme_logo.png",
+        downloadUrl: "assets/icons/itsme_logo.png"
     }  
 ];
 let filteredApps = [...apps];
