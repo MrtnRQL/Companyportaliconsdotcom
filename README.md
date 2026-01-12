@@ -215,7 +215,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## 🔗 Links
 
 - **Website**: [companyportalicons.com](https://companyportalicons.com)
-- **Analytics**: [GoatCounter Stats](https://companyportalicons.goatcounter.com)
+
 - **Issues**: [GitHub Issues](https://github.com/MrtnRQL/Companyportaliconsdotcom/issues)
 - **Aaron Parker's Icons**: [github.com/aaronparker/icons](https://github.com/aaronparker/icons)
 
