@@ -2108,6 +2108,38 @@ const apps = [
         source: "official",
         iconUrl: "assets/icons/itsme_logo.png",
         downloadUrl: "assets/icons/itsme_logo.png"
+    },
+        {
+        name: "garminconnect",
+        slug: "garminconnect",
+        category: "Other",
+        source: "official",
+        iconUrl: "assets/icons/garminconnect.png",
+        downloadUrl: "assets/icons/garminconnect.png"
+    },
+    {
+        name: "microsoft intune",
+        slug: "microsoft-intune",
+        category: "Microsoft",
+        source: "official",
+        iconUrl: "assets/icons/microsoft-intune.png",
+        downloadUrl: "assets/icons/microsoft-intune.png"
+    },
+    {
+        name: "archibus smart client",
+        slug: "archibus-smart-client",
+        category: "Utilities",
+        source: "official",
+        iconUrl: "assets/icons/archibus-smart-client.png",
+        downloadUrl: "assets/icons/archibus-smart-client.png"
+    },
+    {
+        name: "WAU-WingetAutoUpdate",
+        slug: "wau-wingetautoupdate",
+        category: "Other",
+        source: "official",
+        iconUrl: "assets/icons/WAU-WingetAutoUpdate.png",
+        downloadUrl: "assets/icons/WAU-WingetAutoUpdate.png"
     }  
 ];
 let filteredApps = [...apps];
