@@ -92,6 +92,7 @@ const IntuneIntegration = (() => {
       currentAccount = loginResponse.account;
       onAuthStateChanged(true);
       showToast(`Connected as ${currentAccount.username}`, "info");
+      trackEvent("intune-signin", currentAccount.tenantId || "unknown");
       return true;
     } catch (error) {
       console.error("[Intune] Sign-in failed:", error);
@@ -338,9 +339,10 @@ const IntuneIntegration = (() => {
     }
 
     currentIconUrl = iconUrl;
+    const cleanedName = cleanIconName(iconName);
     document.getElementById("intune-preview-img").src = iconUrl;
-    document.getElementById("intune-preview-name").textContent = iconName || "Selected icon";
-    document.getElementById("intune-app-search").value = iconName || "";
+    document.getElementById("intune-preview-name").textContent = cleanedName || "Selected icon";
+    document.getElementById("intune-app-search").value = cleanedName || "";
     document.getElementById("intune-status").style.display = "none";
     document.getElementById("intune-modal-overlay").classList.add("active");
     document.body.style.overflow = "hidden";
@@ -490,6 +492,7 @@ const IntuneIntegration = (() => {
 
       showStatus(statusEl, `Icon applied to "${app.displayName}" successfully!`, "success");
       showToast(`Icon sent to "${app.displayName}"!`, "success");
+      trackEvent("intune-icon-sent", cleanIconName(document.getElementById("intune-preview-name").textContent));
     } catch (error) {
       console.error("[Intune] Apply error:", error);
       showStatus(statusEl, `Failed: ${error.message}`, "error");
@@ -498,7 +501,43 @@ const IntuneIntegration = (() => {
     }
   }
 
+  // ── Analytics ─────────────────────────────────────────────
+  // Sends events to GoatCounter (if available on the page)
+  // Events: "intune-signin", "intune-icon-sent"
+  function trackEvent(eventName, detail) {
+    if (typeof window.goatcounter === "undefined") return;
+    try {
+      window.goatcounter.count({
+        path: `intune/${eventName}/${detail || ""}`,
+        title: eventName,
+        event: true,
+      });
+    } catch (e) {
+      // Silently ignore tracking errors
+    }
+  }
+
   // ── Utilities ────────────────────────────────────────────
+
+  // Clean up icon names for better Intune search matching
+  // "CompanyPortal" → "Company Portal"
+  // "AcrobatReader" → "Acrobat Reader"
+  // "MicrosoftTeams" → "Microsoft Teams"
+  // "7-Zip" → "7-Zip" (unchanged)
+  function cleanIconName(name) {
+    if (!name) return "";
+    return name
+      // Split camelCase/PascalCase: "CompanyPortal" → "Company Portal"
+      .replace(/([a-z])([A-Z])/g, "$1 $2")
+      // Split when lowercase is followed by numbers: "v2App" → "v2 App"
+      .replace(/([a-zA-Z])(\d)/g, "$1 $2")
+      // Remove file extensions
+      .replace(/\.(png|jpg|svg|ico)$/i, "")
+      // Clean up multiple spaces
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
   function blobToBase64(blob) {
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
