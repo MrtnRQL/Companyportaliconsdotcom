@@ -14,6 +14,7 @@ const IntuneIntegration = (() => {
     clientId: "a8a317ff-0d2c-44f0-9a7f-4fa5422cadca",
     authority: "https://login.microsoftonline.com/common",
     redirectUri: window.location.origin,
+    popupRedirectUri: window.location.origin + "/auth/popup.html",
     scopes: ["https://graph.microsoft.com/DeviceManagementApps.ReadWrite.All"],
     graphBase: "https://graph.microsoft.com/beta",
   };
@@ -88,6 +89,7 @@ const IntuneIntegration = (() => {
       const loginResponse = await msalInstance.loginPopup({
         scopes: CONFIG.scopes,
         prompt: "select_account",
+        redirectUri: CONFIG.popupRedirectUri,
       });
       currentAccount = loginResponse.account;
       onAuthStateChanged(true);
@@ -134,7 +136,10 @@ const IntuneIntegration = (() => {
       return response.accessToken;
     } catch (error) {
       console.warn("[Intune] Silent token failed, trying popup:", error);
-      const response = await msalInstance.acquireTokenPopup(tokenRequest);
+      const response = await msalInstance.acquireTokenPopup({
+        ...tokenRequest,
+        redirectUri: CONFIG.popupRedirectUri,
+      });
       return response.accessToken;
     }
   }

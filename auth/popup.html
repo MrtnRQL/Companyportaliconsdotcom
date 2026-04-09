@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Signing in...</title>
+    <script type="text/javascript" src="https://alcdn.msauth.net/browser/2.35.0/js/msal-browser.min.js"></script>
+</head>
+<body>
+    <script>
+        // This page exists solely to handle the MSAL popup redirect.
+        // It loads only MSAL.js — no app code, no icons, no heavy resources.
+        // MSAL will detect it's in a popup, extract the auth code,
+        // and close this window automatically.
+
+        const msalConfig = {
+            auth: {
+                clientId: "a8a317ff-0d2c-44f0-9a7f-4fa5422cadca",
+                authority: "https://login.microsoftonline.com/common",
+                redirectUri: "https://companyportalicons.com/auth/popup.html",
+            },
+            cache: {
+                cacheLocation: "sessionStorage",
+            },
+        };
+
+        const msalInstance = new msal.PublicClientApplication(msalConfig);
+        msalInstance.handleRedirectPromise().catch(function (error) {
+            console.error("Popup redirect error:", error);
+        });
+    </script>
+</body>
+</html>
