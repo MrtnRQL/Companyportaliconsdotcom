@@ -490,7 +490,7 @@ const IntuneIntegration = (() => {
         throw new Error(err?.error?.message || `Failed: ${patchResponse.status}`);
       }
 
-      showStatus(statusEl, `Icon applied to "${app.displayName}" successfully!`, "success");
+      showStatus(statusEl, `Icon applied to "${app.displayName}" successfully! It may take a few minutes to appear in the Intune portal.`, "success");
       showToast(`Icon sent to "${app.displayName}"!`, "success");
       trackEvent("intune-icon-sent", cleanIconName(document.getElementById("intune-preview-name").textContent));
     } catch (error) {
