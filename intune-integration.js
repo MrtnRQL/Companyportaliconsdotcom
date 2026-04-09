@@ -86,9 +86,28 @@ const IntuneIntegration = (() => {
     }
 
     try {
+      // First: check if we already have an account and can get a token silently
+      const accounts = msalInstance.getAllAccounts();
+      if (accounts.length > 0) {
+        try {
+          const silentResponse = await msalInstance.acquireTokenSilent({
+            scopes: CONFIG.scopes,
+            account: accounts[0],
+          });
+          currentAccount = silentResponse.account;
+          onAuthStateChanged(true);
+          showToast(`Connected as ${currentAccount.username}`, "info");
+          trackEvent("intune-signin", currentAccount.tenantId || "unknown");
+          return true;
+        } catch (silentError) {
+          // Silent failed, continue to popup below
+          console.log("[Intune] Silent sign-in failed, showing popup");
+        }
+      }
+
+      // Second: interactive popup
       const loginResponse = await msalInstance.loginPopup({
         scopes: CONFIG.scopes,
-        prompt: "select_account",
         redirectUri: CONFIG.popupRedirectUri,
       });
       currentAccount = loginResponse.account;
