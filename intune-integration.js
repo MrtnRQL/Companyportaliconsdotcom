@@ -526,16 +526,14 @@ const IntuneIntegration = (() => {
   }
 
   // ── Analytics ─────────────────────────────────────────────
-  // Sends events to GoatCounter (if available on the page)
+  // Sends events to GoatCounter via image beacon
+  // Works regardless of whether count.js has loaded
   // Events: "intune-signin", "intune-icon-sent"
   function trackEvent(eventName, detail) {
-    if (typeof window.goatcounter === "undefined") return;
     try {
-      window.goatcounter.count({
-        path: `intune/${eventName}/${detail || ""}`,
-        title: eventName,
-        event: true,
-      });
+      const path = `intune/${eventName}/${detail || ""}`;
+      const img = new Image();
+      img.src = `https://companyportalicons.goatcounter.com/count?p=${encodeURIComponent(path)}&t=${encodeURIComponent(eventName)}&e=true&rnd=${Math.random()}`;
     } catch (e) {
       // Silently ignore tracking errors
     }
