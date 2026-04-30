@@ -2140,6 +2140,158 @@ const apps = [
         source: "official",
         iconUrl: "assets/icons/WAU-WingetAutoUpdate.png",
         downloadUrl: "assets/icons/WAU-WingetAutoUpdate.png"
+    },
+    {
+        name: "ALM alm.com",
+        slug: "alm-alm-com",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/ALM_alm.com.png",
+        downloadUrl: "assets/icons/ALM_alm.com.png"
+    },
+    {
+        name: "ChromeRiver",
+        slug: "chromeriver",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/ChromeRiver.png",
+        downloadUrl: "assets/icons/ChromeRiver.png"
+    },
+    {
+        name: "Docusign",
+        slug: "docusign",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/Docusign.png",
+        downloadUrl: "assets/icons/Docusign.png"
+    },
+    {
+        name: "Graylog",
+        slug: "graylog",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/Graylog.png",
+        downloadUrl: "assets/icons/Graylog.png"
+    },
+    {
+        name: "HighQhub",
+        slug: "highqhub",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/HighQhub.png",
+        downloadUrl: "assets/icons/HighQhub.png"
+    },
+    {
+        name: "iManage",
+        slug: "imanage",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/iManage.png",
+        downloadUrl: "assets/icons/iManage.png"
+    },
+    {
+        name: "Netbox",
+        slug: "netbox",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/Netbox.png",
+        downloadUrl: "assets/icons/Netbox.png"
+    },
+    {
+        name: "knowBe4",
+        slug: "knowbe4",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/knowBe4.png",
+        downloadUrl: "assets/icons/knowBe4.png"
+    },
+    {
+        name: "PA Globalprotect",
+        slug: "pa-globalprotect",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/PA_Globalprotect.png",
+        downloadUrl: "assets/icons/PA_Globalprotect.png"
+    },
+    {
+        name: "Rubrik",
+        slug: "rubrik",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/Rubrik.png",
+        downloadUrl: "assets/icons/Rubrik.png"
+    },
+    {
+        name: "RobinPowered",
+        slug: "robinpowered",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/RobinPowered.png",
+        downloadUrl: "assets/icons/RobinPowered.png"
+    },
+    {
+        name: "Pandora radio logo",
+        slug: "pandora-radio-logo",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/Pandora_radio_logo.png",
+        downloadUrl: "assets/icons/Pandora_radio_logo.png"
+    },
+    {
+        name: "Zscaler",
+        slug: "zscaler",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/Zscaler.png",
+        downloadUrl: "assets/icons/Zscaler.png"
+    },
+    {
+        name: "Wasabi",
+        slug: "wasabi",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/Wasabi.png",
+        downloadUrl: "assets/icons/Wasabi.png"
+    },
+    {
+        name: "Zscaler2",
+        slug: "zscaler2",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/Zscaler2.png",
+        downloadUrl: "assets/icons/Zscaler2.png"
+    },
+    {
+        name: "Omnissa Horizon",
+        slug: "omnissa-horizon",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/Omnissa Horizon.png",
+        downloadUrl: "assets/icons/Omnissa Horizon.png"
+    },
+    {
+        name: "wikijs",
+        slug: "wikijs",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/wikijs.png",
+        downloadUrl: "assets/icons/wikijs.png"
+    },
+    {
+        name: "PitneyShip2",
+        slug: "pitneyship2",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/PitneyShip2.png",
+        downloadUrl: "assets/icons/PitneyShip2.png"
+    },
+    {
+        name: "PitneyShip",
+        slug: "pitneyship",
+        category: "Business",
+        source: "official",
+        iconUrl: "assets/icons/PitneyShip.png",
+        downloadUrl: "assets/icons/PitneyShip.png"
     }  
 ];
 let filteredApps = [...apps];
